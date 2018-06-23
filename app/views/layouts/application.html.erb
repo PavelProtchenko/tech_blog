@@ -22,7 +22,7 @@
           <a class="nav-link" href="<%= posts_path %>">Posts <span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contacts</a>
+          <a class="nav-link" href="<%= static_pages_contacts_path %>">Contacts</a>
         </li>
         <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
@@ -35,8 +35,8 @@
             <a class="dropdown-item" href="#">Something else here</a>
           </div>
         </li>
-        <li class="nav-item">
-          <a class="nav-link disabled" href="#">Disabled</a>
+        <li class="nav-item">      
+          <%= link_to 'New post', new_post_path, class: 'btn btn-outline-primary pull-xs-right' %>
         </li>
       </ul>
       <form class="form-inline my-2 my-lg-0">
@@ -44,10 +44,9 @@
         <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
       </form>
     </div>
-    <%= link_to 'New post', new_post_path, class: 'btn btn-outline-primary pull-xs-right' %>
   </nav>
 
-    <div class="container">
+    <div class="container main">
       <%= yield %>
     </div>
   </body>
