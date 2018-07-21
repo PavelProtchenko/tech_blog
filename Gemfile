@@ -21,6 +21,7 @@ gem 'uglifier', '>= 1.3.0'
 gem 'jquery-rails'
 gem 'carrierwave'
 gem 'mini_magick'
+gem 'trix'
 
 gem 'bootstrap', '~> 4.0.0.alpha4'
 source 'https://rails-assets.org' do

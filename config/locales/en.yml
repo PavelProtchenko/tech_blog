@@ -31,5 +31,12 @@
 
 en:
   posts:
+    index:
+      title: 'Posts'
     new:
       title: 'New post'
+    edit:
+      title: 'Edit post'
+    form:
+      submit:
+        '%{action} post'
