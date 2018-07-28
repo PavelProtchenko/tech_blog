@@ -22,6 +22,7 @@ gem 'jquery-rails'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'trix'
+gem 'will_paginate', '~> 3.1.0'
 
 gem 'bootstrap', '~> 4.0.0.alpha4'
 source 'https://rails-assets.org' do
