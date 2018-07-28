@@ -18,11 +18,14 @@ gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 # See https://github.com/rails/execjs#readme for more supported runtimes
 # gem 'therubyracer', platforms: :ruby
+
+# Custom gems
 gem 'jquery-rails'
 gem 'carrierwave'
 gem 'mini_magick'
 gem 'trix'
 gem 'will_paginate', '~> 3.1.0'
+gem 'ancestry'
 
 gem 'bootstrap', '~> 4.0.0.alpha4'
 source 'https://rails-assets.org' do
