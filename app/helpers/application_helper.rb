@@ -9,4 +9,9 @@ module ApplicationHelper
     result << content_tag(:li, category.name, class: "breadcrumb-item active")
     result.join('').html_safe
   end
+
+  def user_avatar(user)
+    # TODO
+    asset_path('ruby.svg')
+  end
 end
