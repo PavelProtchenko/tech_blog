@@ -1,0 +1,9 @@
+<div class="col-md-4">
+  <h1><%= @user.name %></h1>
+  <%= image_tag(user_avatar(@user), size: "100x100", alt: "Photo") %>
+  <p><%= mail_to @user.email %></p>
+  <p><%= @user.phone %></p>
+  <%= link_to 'Edit user' %>
+  |
+  <%= link_to 'Sign out', destroy_user_session_path, method: :delete  %>
+</div>
